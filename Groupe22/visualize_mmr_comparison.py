@@ -9,7 +9,7 @@ RESULTS_FILE = (
     / "mmr_parameter_results.json"
 )
 
-IMAGE_DIR = BASE_DIR / "dataset" / "train2017"
+IMAGE_DIR = BASE_DIR / "dataset" / "dataset" / "train2017"
 
 OUTPUT_DIR = BASE_DIR / "dataset" / "embeddings"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
